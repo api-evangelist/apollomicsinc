@@ -1,7 +1,31 @@
 aid: apollomicsinc
-name: apollomicsinc
-description: apollomicsinc is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollomicsinc.png
+name: Apollomics, Inc.
+description: >-
+  Apollomics, Inc. (Nasdaq: APLM) is a clinical-stage biopharmaceutical company
+  headquartered in Foster City, California, focused on the discovery and
+  development of oncology therapies designed to be combined with other treatments
+  to harness the immune system and target specific molecular pathways that inhibit
+  cancer. Operating since 2016, Apollomics has a pipeline of nine drug candidates
+  spanning small-molecule targeted drugs and biologics, including late-stage
+  programs such as vebreltinib (Phase 2, NSCLC and solid tumors with cMet
+  dysregulation) and uproleselan (Phase 3 in China for relapsed/refractory AML).
+  The company became publicly traded via a business combination with Maxpro
+  Capital Acquisition Corp. Surfaced as a portfolio company of Qiming and added to
+  the API Evangelist network; as a biopharmaceutical company it publishes no
+  public developer API surface — this profile carries its corporate identity and
+  domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/apollomicsinc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +38,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biopharmaceutical
+- Oncology
+- Precision Medicine
+- Clinical Trials
+- Drug Development
+- Healthcare
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/apollomicsinc-domain-security.yml
 - type: Website
   url: https://apollomicsinc.com
+- type: Support
+  url: https://www.apollomicsinc.com/contact/
+- type: Blog
+  url: https://www.apollomicsinc.com/updates/
+- type: TermsOfService
+  url: https://www.apollomicsinc.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.apollomicsinc.com/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

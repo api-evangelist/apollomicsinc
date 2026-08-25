@@ -2,14 +2,10 @@
   "repo": "apollomicsinc",
   "feeds": [
     {
-      "source": "https://www.apollomicsinc.com/feed/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://www.apollomicsinc.com/contact/",
       "error": "HTTPError"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-15T12:22:01Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
